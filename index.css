@@ -61,7 +61,7 @@ div {animation-duration: 2s;
 .pups {
     text-align: center;
     border: 2px solid black;
-    border-radius: 5px;
+    border-radius: 10px;
     background: burlywood;
     width: 175px;
     height: auto;
