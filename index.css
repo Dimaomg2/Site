@@ -1,0 +1,71 @@
+body {
+    background-image: url("srul.jpg");
+    background-size: 100px;
+    background-color: #FF1493	;
+    padding: 2px;
+    width: auto;
+}
+   @font-face {
+    font-family: M;
+    src: url(Minecraft.ttf);
+   }
+
+@keyframes slidein {
+  from {
+    margin-bottom: 200%;
+  }
+
+  to {
+    margin-bottom: 0%;
+  }
+}
+@font-face {
+    font-family: I;
+    src: url(Impact.ttf);
+   }
+
+p { font-family: M, sans-serif;
+color: #ffffff;}
+
+div {
+    font-family: I, sans-serif;
+}
+div {animation-duration: 2s;
+    animation-name: slidein;}
+.tabs {
+    font-family: M;
+    animation-duration: 3s;
+    animation-name: slidein;
+    background: #FFA07A;
+    text-align: center;
+    width: 100px;
+    height: auto;
+    padding: 10px;
+    margin-top: 2%;
+    margin-left: 5px;
+    margin-right: auto;
+    border: 2px solid #000000;
+    border-radius: 10px;
+}
+.iba video {
+    animation-duration: 4s;
+    animation-name: slidein;
+    overflow: hidden;
+    width: 256px;
+    height: 256px;
+    margin-left: 5px;
+    margin-top: 2%;
+    border: 2px solid #000000;
+    border-radius: 10px;
+}
+.pups {
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 5px;
+    background: burlywood;
+    width: 175px;
+    height: auto;
+    padding: 2px;
+    margin-left: 5px;
+    margin-right: auto;
+}
