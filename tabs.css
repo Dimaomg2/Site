@@ -1,5 +1,5 @@
 .body {
-    background image: src("srul.jpg");
+    background-image: src("srul.jpg");
 }
 @font-face {
     font-family: M;
